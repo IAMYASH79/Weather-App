@@ -20,7 +20,17 @@ const Weather = () => {
       <p className="temperature">20°C</p>
       <p className="location">Bihar</p>
       <div className="weather-data">
-        <div className="col"></div>
+        <div className="col">
+          <img src={humidity_icon} alt="" />
+        </div>
+        <p>91 %</p>
+        <span>Humidity</span>
+
+        <div className="col">
+          <img src={wind_icon} alt="" />
+        </div>
+        <p>5 km/h</p>
+        <span>Wind Speed</span>
       </div>
     </div>
   );
